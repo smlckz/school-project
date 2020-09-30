@@ -6,5 +6,7 @@
 
 #define     PROJ_RAND_SEED  (0xFADE ^ 0xDEAD)
 
+#define     PROJ_ARRAY_MAX  8
+
 #endif   /* PROJ_COMMON_H */
 
