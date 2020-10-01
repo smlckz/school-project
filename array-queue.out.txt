@@ -1,0 +1,405 @@
+enqueued 164: ok
+queue:
+===
+164	
+===
+enqueued 137: ok
+queue:
+===
+164	137	
+===
+dequeued 164: ok
+queue:
+===
+137	
+===
+dequeued 137: ok
+queue:
+===
+
+===
+unable to dequeue: queue empty
+queue:
+===
+
+===
+enqueued 143: ok
+queue:
+===
+143	
+===
+dequeued 143: ok
+queue:
+===
+
+===
+unable to dequeue: queue empty
+queue:
+===
+
+===
+enqueued 206: ok
+queue:
+===
+206	
+===
+dequeued 206: ok
+queue:
+===
+
+===
+enqueued 66: ok
+queue:
+===
+66	
+===
+enqueued 105: ok
+queue:
+===
+66	105	
+===
+enqueued 95: ok
+queue:
+===
+66	105	95	
+===
+dequeued 66: ok
+queue:
+===
+105	95	
+===
+enqueued 198: ok
+queue:
+===
+105	95	198	
+===
+enqueued 158: ok
+queue:
+===
+105	95	198	158	
+===
+enqueued 136: ok
+queue:
+===
+105	95	198	158	136	
+===
+enqueued 127: ok
+queue:
+===
+105	95	198	158	136	127	
+===
+dequeued 105: ok
+queue:
+===
+95	198	158	136	127	
+===
+dequeued 95: ok
+queue:
+===
+198	158	136	127	
+===
+enqueued 19: ok
+queue:
+===
+198	158	136	127	19	
+===
+enqueued 112: ok
+queue:
+===
+198	158	136	127	19	112	
+===
+dequeued 198: ok
+queue:
+===
+158	136	127	19	112	
+===
+dequeued 158: ok
+queue:
+===
+136	127	19	112	
+===
+enqueued 84: ok
+queue:
+===
+136	127	19	112	84	
+===
+dequeued 136: ok
+queue:
+===
+127	19	112	84	
+===
+enqueued 231: ok
+queue:
+===
+127	19	112	84	231	
+===
+dequeued 127: ok
+queue:
+===
+19	112	84	231	
+===
+dequeued 19: ok
+queue:
+===
+112	84	231	
+===
+enqueued 110: ok
+queue:
+===
+112	84	231	110	
+===
+enqueued 169: ok
+queue:
+===
+112	84	231	110	169	
+===
+enqueued 71: ok
+queue:
+===
+112	84	231	110	169	71	
+===
+enqueued 36: ok
+queue:
+===
+112	84	231	110	169	71	36	
+===
+dequeued 112: ok
+queue:
+===
+84	231	110	169	71	36	
+===
+enqueued 229: ok
+queue:
+===
+84	231	110	169	71	36	229	
+===
+enqueued 229: ok
+queue:
+===
+84	231	110	169	71	36	229	229	
+===
+dequeued 84: ok
+queue:
+===
+231	110	169	71	36	229	229	
+===
+enqueued 101: ok
+queue:
+===
+231	110	169	71	36	229	229	101	
+===
+unable to enqueue: queue full
+queue:
+===
+231	110	169	71	36	229	229	101	
+===
+dequeued 231: ok
+queue:
+===
+110	169	71	36	229	229	101	
+===
+enqueued 155: ok
+queue:
+===
+110	169	71	36	229	229	101	155	
+===
+unable to enqueue: queue full
+queue:
+===
+110	169	71	36	229	229	101	155	
+===
+dequeued 110: ok
+queue:
+===
+169	71	36	229	229	101	155	
+===
+enqueued 21: ok
+queue:
+===
+169	71	36	229	229	101	155	21	
+===
+unable to enqueue: queue full
+queue:
+===
+169	71	36	229	229	101	155	21	
+===
+dequeued 169: ok
+queue:
+===
+71	36	229	229	101	155	21	
+===
+dequeued 71: ok
+queue:
+===
+36	229	229	101	155	21	
+===
+dequeued 36: ok
+queue:
+===
+229	229	101	155	21	
+===
+dequeued 229: ok
+queue:
+===
+229	101	155	21	
+===
+enqueued 1: ok
+queue:
+===
+229	101	155	21	1	
+===
+dequeued 229: ok
+queue:
+===
+101	155	21	1	
+===
+enqueued 73: ok
+queue:
+===
+101	155	21	1	73	
+===
+enqueued 195: ok
+queue:
+===
+101	155	21	1	73	195	
+===
+dequeued 101: ok
+queue:
+===
+155	21	1	73	195	
+===
+enqueued 169: ok
+queue:
+===
+155	21	1	73	195	169	
+===
+enqueued 175: ok
+queue:
+===
+155	21	1	73	195	169	175	
+===
+dequeued 155: ok
+queue:
+===
+21	1	73	195	169	175	
+===
+enqueued 20: ok
+queue:
+===
+21	1	73	195	169	175	20	
+===
+dequeued 21: ok
+queue:
+===
+1	73	195	169	175	20	
+===
+enqueued 97: ok
+queue:
+===
+1	73	195	169	175	20	97	
+===
+dequeued 1: ok
+queue:
+===
+73	195	169	175	20	97	
+===
+enqueued 31: ok
+queue:
+===
+73	195	169	175	20	97	31	
+===
+enqueued 64: ok
+queue:
+===
+73	195	169	175	20	97	31	64	
+===
+unable to enqueue: queue full
+queue:
+===
+73	195	169	175	20	97	31	64	
+===
+dequeued 73: ok
+queue:
+===
+195	169	175	20	97	31	64	
+===
+dequeued 195: ok
+queue:
+===
+169	175	20	97	31	64	
+===
+dequeued 169: ok
+queue:
+===
+175	20	97	31	64	
+===
+enqueued 187: ok
+queue:
+===
+175	20	97	31	64	187	
+===
+enqueued 34: ok
+queue:
+===
+175	20	97	31	64	187	34	
+===
+enqueued 243: ok
+queue:
+===
+175	20	97	31	64	187	34	243	
+===
+dequeued 175: ok
+queue:
+===
+20	97	31	64	187	34	243	
+===
+dequeued 20: ok
+queue:
+===
+97	31	64	187	34	243	
+===
+enqueued 134: ok
+queue:
+===
+97	31	64	187	34	243	134	
+===
+enqueued 183: ok
+queue:
+===
+97	31	64	187	34	243	134	183	
+===
+dequeued 97: ok
+queue:
+===
+31	64	187	34	243	134	183	
+===
+enqueued 103: ok
+queue:
+===
+31	64	187	34	243	134	183	103	
+===
+unable to enqueue: queue full
+queue:
+===
+31	64	187	34	243	134	183	103	
+===
+dequeued 31: ok
+queue:
+===
+64	187	34	243	134	183	103	
+===
+dequeued 64: ok
+queue:
+===
+187	34	243	134	183	103	
+===
+dequeued 187: ok
+queue:
+===
+34	243	134	183	103	
+===
+dequeued 34: ok
+queue:
+===
+243	134	183	103	
+===

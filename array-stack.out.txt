@@ -1,0 +1,405 @@
+pushed 164: ok
+stack:
+===
+164	
+===
+pushed 137: ok
+stack:
+===
+137	164	
+===
+popped 137: ok
+stack:
+===
+164	
+===
+popped 164: ok
+stack:
+===
+
+===
+unable to pop: stack underflow
+stack:
+===
+
+===
+pushed 143: ok
+stack:
+===
+143	
+===
+popped 143: ok
+stack:
+===
+
+===
+unable to pop: stack underflow
+stack:
+===
+
+===
+pushed 206: ok
+stack:
+===
+206	
+===
+popped 206: ok
+stack:
+===
+
+===
+pushed 66: ok
+stack:
+===
+66	
+===
+pushed 105: ok
+stack:
+===
+105	66	
+===
+pushed 95: ok
+stack:
+===
+95	105	66	
+===
+popped 95: ok
+stack:
+===
+105	66	
+===
+pushed 198: ok
+stack:
+===
+198	105	66	
+===
+pushed 158: ok
+stack:
+===
+158	198	105	66	
+===
+pushed 136: ok
+stack:
+===
+136	158	198	105	66	
+===
+pushed 127: ok
+stack:
+===
+127	136	158	198	105	66	
+===
+popped 127: ok
+stack:
+===
+136	158	198	105	66	
+===
+popped 136: ok
+stack:
+===
+158	198	105	66	
+===
+pushed 19: ok
+stack:
+===
+19	158	198	105	66	
+===
+pushed 112: ok
+stack:
+===
+112	19	158	198	105	66	
+===
+popped 112: ok
+stack:
+===
+19	158	198	105	66	
+===
+popped 19: ok
+stack:
+===
+158	198	105	66	
+===
+pushed 84: ok
+stack:
+===
+84	158	198	105	66	
+===
+popped 84: ok
+stack:
+===
+158	198	105	66	
+===
+pushed 231: ok
+stack:
+===
+231	158	198	105	66	
+===
+popped 231: ok
+stack:
+===
+158	198	105	66	
+===
+popped 158: ok
+stack:
+===
+198	105	66	
+===
+pushed 110: ok
+stack:
+===
+110	198	105	66	
+===
+pushed 169: ok
+stack:
+===
+169	110	198	105	66	
+===
+pushed 71: ok
+stack:
+===
+71	169	110	198	105	66	
+===
+pushed 36: ok
+stack:
+===
+36	71	169	110	198	105	66	
+===
+popped 36: ok
+stack:
+===
+71	169	110	198	105	66	
+===
+pushed 229: ok
+stack:
+===
+229	71	169	110	198	105	66	
+===
+pushed 229: ok
+stack:
+===
+229	229	71	169	110	198	105	66	
+===
+popped 229: ok
+stack:
+===
+229	71	169	110	198	105	66	
+===
+pushed 101: ok
+stack:
+===
+101	229	71	169	110	198	105	66	
+===
+unable to push: stack overflow
+stack:
+===
+101	229	71	169	110	198	105	66	
+===
+popped 101: ok
+stack:
+===
+229	71	169	110	198	105	66	
+===
+pushed 155: ok
+stack:
+===
+155	229	71	169	110	198	105	66	
+===
+unable to push: stack overflow
+stack:
+===
+155	229	71	169	110	198	105	66	
+===
+popped 155: ok
+stack:
+===
+229	71	169	110	198	105	66	
+===
+pushed 21: ok
+stack:
+===
+21	229	71	169	110	198	105	66	
+===
+unable to push: stack overflow
+stack:
+===
+21	229	71	169	110	198	105	66	
+===
+popped 21: ok
+stack:
+===
+229	71	169	110	198	105	66	
+===
+popped 229: ok
+stack:
+===
+71	169	110	198	105	66	
+===
+popped 71: ok
+stack:
+===
+169	110	198	105	66	
+===
+popped 169: ok
+stack:
+===
+110	198	105	66	
+===
+pushed 1: ok
+stack:
+===
+1	110	198	105	66	
+===
+popped 1: ok
+stack:
+===
+110	198	105	66	
+===
+pushed 73: ok
+stack:
+===
+73	110	198	105	66	
+===
+pushed 195: ok
+stack:
+===
+195	73	110	198	105	66	
+===
+popped 195: ok
+stack:
+===
+73	110	198	105	66	
+===
+pushed 169: ok
+stack:
+===
+169	73	110	198	105	66	
+===
+pushed 175: ok
+stack:
+===
+175	169	73	110	198	105	66	
+===
+popped 175: ok
+stack:
+===
+169	73	110	198	105	66	
+===
+pushed 20: ok
+stack:
+===
+20	169	73	110	198	105	66	
+===
+popped 20: ok
+stack:
+===
+169	73	110	198	105	66	
+===
+pushed 97: ok
+stack:
+===
+97	169	73	110	198	105	66	
+===
+popped 97: ok
+stack:
+===
+169	73	110	198	105	66	
+===
+pushed 31: ok
+stack:
+===
+31	169	73	110	198	105	66	
+===
+pushed 64: ok
+stack:
+===
+64	31	169	73	110	198	105	66	
+===
+unable to push: stack overflow
+stack:
+===
+64	31	169	73	110	198	105	66	
+===
+popped 64: ok
+stack:
+===
+31	169	73	110	198	105	66	
+===
+popped 31: ok
+stack:
+===
+169	73	110	198	105	66	
+===
+popped 169: ok
+stack:
+===
+73	110	198	105	66	
+===
+pushed 187: ok
+stack:
+===
+187	73	110	198	105	66	
+===
+pushed 34: ok
+stack:
+===
+34	187	73	110	198	105	66	
+===
+pushed 243: ok
+stack:
+===
+243	34	187	73	110	198	105	66	
+===
+popped 243: ok
+stack:
+===
+34	187	73	110	198	105	66	
+===
+popped 34: ok
+stack:
+===
+187	73	110	198	105	66	
+===
+pushed 134: ok
+stack:
+===
+134	187	73	110	198	105	66	
+===
+pushed 183: ok
+stack:
+===
+183	134	187	73	110	198	105	66	
+===
+popped 183: ok
+stack:
+===
+134	187	73	110	198	105	66	
+===
+pushed 103: ok
+stack:
+===
+103	134	187	73	110	198	105	66	
+===
+unable to push: stack overflow
+stack:
+===
+103	134	187	73	110	198	105	66	
+===
+popped 103: ok
+stack:
+===
+134	187	73	110	198	105	66	
+===
+popped 134: ok
+stack:
+===
+187	73	110	198	105	66	
+===
+popped 187: ok
+stack:
+===
+73	110	198	105	66	
+===
+popped 73: ok
+stack:
+===
+110	198	105	66	
+===
