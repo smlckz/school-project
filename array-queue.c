@@ -58,7 +58,7 @@ void queue_print(struct queue *queue)
     size_t i = queue->start;
     if (queue->divided || (queue->start != queue->end)) {
         do {
-            printf("%" PROJ_ELEM_FMT "\t", queue->array[i++]);
+            printf("%" PROJ_ELEM_FMT, queue->array[i++]);
             if (i >= QUEUE_MAX) i = 0;
         } while (i != queue->end);
     }

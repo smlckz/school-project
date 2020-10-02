@@ -12,16 +12,16 @@ void queue__try(struct queue *t, int coin_toss)
     if (coin_toss) {
         error = dequeue(t, &value);
         if (error == QUEUE_ERR_NONE)
-            printf("dequeued %d: ", value);
+            printf("dequeued %3d: ", value);
         else
-            printf("unable to dequeue: ");
+            printf("can't dequeue: ");
     } else {
         value = (rand() & 0xFF) ^ 0xFF;
         error = enqueue(t, value);
         if (error == QUEUE_ERR_NONE)
-            printf("enqueued %d: ", value);
+            printf("enqueued %3d: ", value);
         else
-            printf("unable to enqueue: ");
+            printf("can't enqueue: ");
     }
     queue_print_error(error);
     puts("");
@@ -35,9 +35,9 @@ int main(void)
     trials = rand() & 0x7F;
     for (i = 0; i < trials; i++) {
         queue__try(t, rand() % 2);
-        printf("queue:\n===\n");
+        printf("::");
         queue_print(t);
-        printf("\n===\n");
+        puts("");
     }
     queue_free(t);
     return 0;

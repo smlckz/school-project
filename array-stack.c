@@ -46,7 +46,7 @@ void stack_print(struct stack *stack)
 {
     long i;
     for (i = stack->top; i >= 0; i--) {
-        printf("%" PROJ_ELEM_FMT "\t", stack->array[i]);
+        printf("%" PROJ_ELEM_FMT, stack->array[i]);
     }
 }
 

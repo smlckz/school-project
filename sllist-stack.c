@@ -61,7 +61,7 @@ void stack_print(struct stack *stack)
 {
     struct stack_node *current = stack->top;
     while (current != NULL) {
-        printf("%" PROJ_ELEM_FMT "\t", current->value);
+        printf("%" PROJ_ELEM_FMT, current->value);
         current = current->next;
     }
 }

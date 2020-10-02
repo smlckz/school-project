@@ -67,7 +67,7 @@ void queue_print(struct queue *queue)
 {
     struct queue_node *current = queue->start;
     while (current != NULL) {
-        printf("%" PROJ_ELEM_FMT "\t", current->value);
+        printf("%" PROJ_ELEM_FMT, current->value);
         current = current->next;
     }
 }
