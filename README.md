@@ -1,6 +1,6 @@
-twelfth grade school project
+# twelfth grade school project
 
-on C programming
+## on C programming
 
 topics:
 * implementing
@@ -11,5 +11,4 @@ topics:
     * static array and 
     * singly linked list
   * polynomial addition
-
 
