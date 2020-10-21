@@ -3,8 +3,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#define QUEUE_IMPLEMENTATION
-
 #include "queue.h"
 
 #define QUEUE_MAX PROJ_ARRAY_MAX

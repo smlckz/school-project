@@ -5,6 +5,16 @@
 
 #include "stack.h"
 
+void stack_print_error(enum stack_error error_kind)
+{
+    switch (error_kind) {
+    case STACK_ERR_NONE: printf("ok"); break;
+    case STACK_ERR_UNDERFLOW: printf("stack underflow"); break;
+    case STACK_ERR_OVERFLOW: printf("stack overflow"); break;
+    case STACK_ERR_NOMEMORY: printf("no memory"); break;
+    }
+}
+
 void stack__try(struct stack *t, int coin_toss)
 {
     enum stack_error error;

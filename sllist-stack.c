@@ -3,8 +3,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#define STACK_IMPLEMENTATION
-
 #include "stack.h"
 
 struct stack_node {

@@ -5,6 +5,16 @@
 
 #include "queue.h"
 
+void queue_print_error(enum queue_error error_kind)
+{
+    switch (error_kind) {
+    case QUEUE_ERR_NONE: printf("ok"); break;
+    case QUEUE_ERR_FULL: printf("queue full"); break;
+    case QUEUE_ERR_EMPTY: printf("queue empty"); break;
+    case QUEUE_ERR_NOMEMORY: printf("no memory"); break;
+    }
+}
+
 void queue__try(struct queue *t, int coin_toss)
 {
     enum queue_error error;

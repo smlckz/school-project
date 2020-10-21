@@ -3,8 +3,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#define QUEUE_IMPLEMENTATION
-
 #include "queue.h"
 
 struct queue_node {
