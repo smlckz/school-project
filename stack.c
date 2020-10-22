@@ -5,6 +5,8 @@
 
 #include "stack.h"
 
+enum stack_op { PUSH, POP };
+
 void stack_print_error(enum stack_error error_kind)
 {
     switch (error_kind) {
@@ -15,18 +17,16 @@ void stack_print_error(enum stack_error error_kind)
     }
 }
 
-void stack__try(struct stack *t, int coin_toss)
+int stack__try(struct stack *t, enum stack_op op, stack_elem value)
 {
     enum stack_error error;
-    int value;
-    if (coin_toss) {
+    if (op == POP) {
         error = stack_pop(t, &value);
         if (error == STACK_ERR_NONE)
             printf("popped %3d: ", value);
         else
             printf("can't pop: ");
-    } else {
-        value = (rand() & 0xFF) ^ 0xFF;
+    } else if (op == PUSH) {
         error = stack_push(t, value);
         if (error == STACK_ERR_NONE)
             printf("pushed %3d: ", value);
@@ -35,16 +35,25 @@ void stack__try(struct stack *t, int coin_toss)
     }
     stack_print_error(error);
     puts("");
+    return error == STACK_ERR_NONE;
 }
 
 int main(void)
 {
+    enum stack_op ops[] = {
+        PUSH, PUSH, POP, PUSH, PUSH, POP, POP, POP, 
+        POP, PUSH, PUSH, PUSH, PUSH, POP, PUSH, PUSH, 
+        PUSH, PUSH, PUSH, PUSH, POP, POP, POP, PUSH, 
+        POP, POP, PUSH, POP
+    };
+    stack_elem values[] = {7, -4, 17, 42, -18, -83, 35, 47, 53, -19, 22, -9, 0, -49, 51};
     struct stack *t = stack_new();
     size_t i, trials;
-    srand(PROJ_RAND_SEED);
-    trials = rand() & 0x5F;
+    stack_elem *value = values;
+    trials = ARRAY_SIZE(ops);
     for (i = 0; i < trials; i++) {
-        stack__try(t, rand() % 2);
+        if (stack__try(t, ops[i], *value))
+            if (ops[i] == PUSH) value++;
         printf("::");
         stack_print(t);
         puts("");

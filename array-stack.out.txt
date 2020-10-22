@@ -1,162 +1,56 @@
-pushed 164: ok
-:: 164
-pushed 137: ok
-:: 137 164
-popped 137: ok
-:: 164
-popped 164: ok
+pushed   7: ok
+::   7
+pushed  -4: ok
+::  -4   7
+popped  -4: ok
+::   7
+pushed  17: ok
+::  17   7
+pushed  42: ok
+::  42  17   7
+popped  42: ok
+::  17   7
+popped  17: ok
+::   7
+popped   7: ok
 ::
 can't pop: stack underflow
 ::
-pushed 143: ok
-:: 143
-popped 143: ok
-::
-can't pop: stack underflow
-::
-pushed 206: ok
-:: 206
-popped 206: ok
-::
-pushed  66: ok
-::  66
-pushed 105: ok
-:: 105  66
-pushed  95: ok
-::  95 105  66
-popped  95: ok
-:: 105  66
-pushed 198: ok
-:: 198 105  66
-pushed 158: ok
-:: 158 198 105  66
-pushed 136: ok
-:: 136 158 198 105  66
-pushed 127: ok
-:: 127 136 158 198 105  66
-popped 127: ok
-:: 136 158 198 105  66
-popped 136: ok
-:: 158 198 105  66
-pushed  19: ok
-::  19 158 198 105  66
-pushed 112: ok
-:: 112  19 158 198 105  66
-popped 112: ok
-::  19 158 198 105  66
-popped  19: ok
-:: 158 198 105  66
-pushed  84: ok
-::  84 158 198 105  66
-popped  84: ok
-:: 158 198 105  66
-pushed 231: ok
-:: 231 158 198 105  66
-popped 231: ok
-:: 158 198 105  66
-popped 158: ok
-:: 198 105  66
-pushed 110: ok
-:: 110 198 105  66
-pushed 169: ok
-:: 169 110 198 105  66
-pushed  71: ok
-::  71 169 110 198 105  66
-pushed  36: ok
-::  36  71 169 110 198 105  66
-popped  36: ok
-::  71 169 110 198 105  66
-pushed 229: ok
-:: 229  71 169 110 198 105  66
-pushed 229: ok
-:: 229 229  71 169 110 198 105  66
-popped 229: ok
-:: 229  71 169 110 198 105  66
-pushed 101: ok
-:: 101 229  71 169 110 198 105  66
+pushed -18: ok
+:: -18
+pushed -83: ok
+:: -83 -18
+pushed  35: ok
+::  35 -83 -18
+pushed  47: ok
+::  47  35 -83 -18
+popped  47: ok
+::  35 -83 -18
+pushed  53: ok
+::  53  35 -83 -18
+pushed -19: ok
+:: -19  53  35 -83 -18
+pushed  22: ok
+::  22 -19  53  35 -83 -18
+pushed  -9: ok
+::  -9  22 -19  53  35 -83 -18
+pushed   0: ok
+::   0  -9  22 -19  53  35 -83 -18
 can't push: stack overflow
-:: 101 229  71 169 110 198 105  66
-popped 101: ok
-:: 229  71 169 110 198 105  66
-pushed 155: ok
-:: 155 229  71 169 110 198 105  66
-can't push: stack overflow
-:: 155 229  71 169 110 198 105  66
-popped 155: ok
-:: 229  71 169 110 198 105  66
-pushed  21: ok
-::  21 229  71 169 110 198 105  66
-can't push: stack overflow
-::  21 229  71 169 110 198 105  66
-popped  21: ok
-:: 229  71 169 110 198 105  66
-popped 229: ok
-::  71 169 110 198 105  66
-popped  71: ok
-:: 169 110 198 105  66
-popped 169: ok
-:: 110 198 105  66
-pushed   1: ok
-::   1 110 198 105  66
-popped   1: ok
-:: 110 198 105  66
-pushed  73: ok
-::  73 110 198 105  66
-pushed 195: ok
-:: 195  73 110 198 105  66
-popped 195: ok
-::  73 110 198 105  66
-pushed 169: ok
-:: 169  73 110 198 105  66
-pushed 175: ok
-:: 175 169  73 110 198 105  66
-popped 175: ok
-:: 169  73 110 198 105  66
-pushed  20: ok
-::  20 169  73 110 198 105  66
-popped  20: ok
-:: 169  73 110 198 105  66
-pushed  97: ok
-::  97 169  73 110 198 105  66
-popped  97: ok
-:: 169  73 110 198 105  66
-pushed  31: ok
-::  31 169  73 110 198 105  66
-pushed  64: ok
-::  64  31 169  73 110 198 105  66
-can't push: stack overflow
-::  64  31 169  73 110 198 105  66
-popped  64: ok
-::  31 169  73 110 198 105  66
-popped  31: ok
-:: 169  73 110 198 105  66
-popped 169: ok
-::  73 110 198 105  66
-pushed 187: ok
-:: 187  73 110 198 105  66
-pushed  34: ok
-::  34 187  73 110 198 105  66
-pushed 243: ok
-:: 243  34 187  73 110 198 105  66
-popped 243: ok
-::  34 187  73 110 198 105  66
-popped  34: ok
-:: 187  73 110 198 105  66
-pushed 134: ok
-:: 134 187  73 110 198 105  66
-pushed 183: ok
-:: 183 134 187  73 110 198 105  66
-popped 183: ok
-:: 134 187  73 110 198 105  66
-pushed 103: ok
-:: 103 134 187  73 110 198 105  66
-can't push: stack overflow
-:: 103 134 187  73 110 198 105  66
-popped 103: ok
-:: 134 187  73 110 198 105  66
-popped 134: ok
-:: 187  73 110 198 105  66
-popped 187: ok
-::  73 110 198 105  66
-popped  73: ok
-:: 110 198 105  66
+::   0  -9  22 -19  53  35 -83 -18
+popped   0: ok
+::  -9  22 -19  53  35 -83 -18
+popped  -9: ok
+::  22 -19  53  35 -83 -18
+popped  22: ok
+:: -19  53  35 -83 -18
+pushed -49: ok
+:: -49 -19  53  35 -83 -18
+popped -49: ok
+:: -19  53  35 -83 -18
+popped -19: ok
+::  53  35 -83 -18
+pushed  51: ok
+::  51  53  35 -83 -18
+popped  51: ok
+::  53  35 -83 -18

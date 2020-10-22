@@ -5,6 +5,8 @@
 
 #include "queue.h"
 
+enum queue_op { NQ, DQ };
+
 void queue_print_error(enum queue_error error_kind)
 {
     switch (error_kind) {
@@ -15,18 +17,16 @@ void queue_print_error(enum queue_error error_kind)
     }
 }
 
-void queue__try(struct queue *t, int coin_toss)
+int queue__try(struct queue *t, enum queue_op op, queue_elem value)
 {
     enum queue_error error;
-    int value;
-    if (coin_toss) {
+    if (op == DQ) {
         error = dequeue(t, &value);
         if (error == QUEUE_ERR_NONE)
             printf("dequeued %3d: ", value);
         else
             printf("can't dequeue: ");
-    } else {
-        value = (rand() & 0xFF) ^ 0xFF;
+    } else if (op == NQ) {
         error = enqueue(t, value);
         if (error == QUEUE_ERR_NONE)
             printf("enqueued %3d: ", value);
@@ -35,16 +35,25 @@ void queue__try(struct queue *t, int coin_toss)
     }
     queue_print_error(error);
     puts("");
+    return error == QUEUE_ERR_NONE;
 }
 
 int main(void)
 {
+    enum queue_op ops[] = {
+        NQ, NQ, NQ, DQ, NQ, DQ, DQ, DQ,
+        DQ, NQ, NQ, NQ, NQ, NQ, DQ, DQ,
+        NQ, NQ, NQ, NQ, NQ, NQ, DQ, DQ, 
+        NQ, DQ, DQ, DQ, DQ
+    };
+    queue_elem values[] = { 1, 89, -34, 47, 22, 34, -62, -77, -20, 0, 16, -42, -68, -7, 3, 43 };
     struct queue *t = queue_new();
     size_t i, trials;
-    srand(PROJ_RAND_SEED);
-    trials = rand() & 0x7F;
+    queue_elem *value = values;
+    trials = ARRAY_SIZE(ops);
     for (i = 0; i < trials; i++) {
-        queue__try(t, rand() % 2);
+        if (queue__try(t, ops[i], *value))
+            if (ops[i] == NQ) value++;
         printf("::");
         queue_print(t);
         puts("");

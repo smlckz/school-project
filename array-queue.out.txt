@@ -1,162 +1,58 @@
-enqueued 164: ok
-:: 164
-enqueued 137: ok
-:: 164 137
-dequeued 164: ok
-:: 137
-dequeued 137: ok
-::
-can't dequeue: queue empty
-::
-enqueued 143: ok
-:: 143
-dequeued 143: ok
-::
-can't dequeue: queue empty
-::
-enqueued 206: ok
-:: 206
-dequeued 206: ok
-::
-enqueued  66: ok
-::  66
-enqueued 105: ok
-::  66 105
-enqueued  95: ok
-::  66 105  95
-dequeued  66: ok
-:: 105  95
-enqueued 198: ok
-:: 105  95 198
-enqueued 158: ok
-:: 105  95 198 158
-enqueued 136: ok
-:: 105  95 198 158 136
-enqueued 127: ok
-:: 105  95 198 158 136 127
-dequeued 105: ok
-::  95 198 158 136 127
-dequeued  95: ok
-:: 198 158 136 127
-enqueued  19: ok
-:: 198 158 136 127  19
-enqueued 112: ok
-:: 198 158 136 127  19 112
-dequeued 198: ok
-:: 158 136 127  19 112
-dequeued 158: ok
-:: 136 127  19 112
-enqueued  84: ok
-:: 136 127  19 112  84
-dequeued 136: ok
-:: 127  19 112  84
-enqueued 231: ok
-:: 127  19 112  84 231
-dequeued 127: ok
-::  19 112  84 231
-dequeued  19: ok
-:: 112  84 231
-enqueued 110: ok
-:: 112  84 231 110
-enqueued 169: ok
-:: 112  84 231 110 169
-enqueued  71: ok
-:: 112  84 231 110 169  71
-enqueued  36: ok
-:: 112  84 231 110 169  71  36
-dequeued 112: ok
-::  84 231 110 169  71  36
-enqueued 229: ok
-::  84 231 110 169  71  36 229
-enqueued 229: ok
-::  84 231 110 169  71  36 229 229
-dequeued  84: ok
-:: 231 110 169  71  36 229 229
-enqueued 101: ok
-:: 231 110 169  71  36 229 229 101
-can't enqueue: queue full
-:: 231 110 169  71  36 229 229 101
-dequeued 231: ok
-:: 110 169  71  36 229 229 101
-enqueued 155: ok
-:: 110 169  71  36 229 229 101 155
-can't enqueue: queue full
-:: 110 169  71  36 229 229 101 155
-dequeued 110: ok
-:: 169  71  36 229 229 101 155
-enqueued  21: ok
-:: 169  71  36 229 229 101 155  21
-can't enqueue: queue full
-:: 169  71  36 229 229 101 155  21
-dequeued 169: ok
-::  71  36 229 229 101 155  21
-dequeued  71: ok
-::  36 229 229 101 155  21
-dequeued  36: ok
-:: 229 229 101 155  21
-dequeued 229: ok
-:: 229 101 155  21
 enqueued   1: ok
-:: 229 101 155  21   1
-dequeued 229: ok
-:: 101 155  21   1
-enqueued  73: ok
-:: 101 155  21   1  73
-enqueued 195: ok
-:: 101 155  21   1  73 195
-dequeued 101: ok
-:: 155  21   1  73 195
-enqueued 169: ok
-:: 155  21   1  73 195 169
-enqueued 175: ok
-:: 155  21   1  73 195 169 175
-dequeued 155: ok
-::  21   1  73 195 169 175
-enqueued  20: ok
-::  21   1  73 195 169 175  20
-dequeued  21: ok
-::   1  73 195 169 175  20
-enqueued  97: ok
-::   1  73 195 169 175  20  97
+::   1
+enqueued  89: ok
+::   1  89
+enqueued -34: ok
+::   1  89 -34
 dequeued   1: ok
-::  73 195 169 175  20  97
-enqueued  31: ok
-::  73 195 169 175  20  97  31
-enqueued  64: ok
-::  73 195 169 175  20  97  31  64
-can't enqueue: queue full
-::  73 195 169 175  20  97  31  64
-dequeued  73: ok
-:: 195 169 175  20  97  31  64
-dequeued 195: ok
-:: 169 175  20  97  31  64
-dequeued 169: ok
-:: 175  20  97  31  64
-enqueued 187: ok
-:: 175  20  97  31  64 187
+::  89 -34
+enqueued  47: ok
+::  89 -34  47
+dequeued  89: ok
+:: -34  47
+dequeued -34: ok
+::  47
+dequeued  47: ok
+::
+can't dequeue: queue empty
+::
+enqueued  22: ok
+::  22
 enqueued  34: ok
-:: 175  20  97  31  64 187  34
-enqueued 243: ok
-:: 175  20  97  31  64 187  34 243
-dequeued 175: ok
-::  20  97  31  64 187  34 243
-dequeued  20: ok
-::  97  31  64 187  34 243
-enqueued 134: ok
-::  97  31  64 187  34 243 134
-enqueued 183: ok
-::  97  31  64 187  34 243 134 183
-dequeued  97: ok
-::  31  64 187  34 243 134 183
-enqueued 103: ok
-::  31  64 187  34 243 134 183 103
-can't enqueue: queue full
-::  31  64 187  34 243 134 183 103
-dequeued  31: ok
-::  64 187  34 243 134 183 103
-dequeued  64: ok
-:: 187  34 243 134 183 103
-dequeued 187: ok
-::  34 243 134 183 103
+::  22  34
+enqueued -62: ok
+::  22  34 -62
+enqueued -77: ok
+::  22  34 -62 -77
+enqueued -20: ok
+::  22  34 -62 -77 -20
+dequeued  22: ok
+::  34 -62 -77 -20
 dequeued  34: ok
-:: 243 134 183 103
+:: -62 -77 -20
+enqueued   0: ok
+:: -62 -77 -20   0
+enqueued  16: ok
+:: -62 -77 -20   0  16
+enqueued -42: ok
+:: -62 -77 -20   0  16 -42
+enqueued -68: ok
+:: -62 -77 -20   0  16 -42 -68
+enqueued  -7: ok
+:: -62 -77 -20   0  16 -42 -68  -7
+can't enqueue: queue full
+:: -62 -77 -20   0  16 -42 -68  -7
+dequeued -62: ok
+:: -77 -20   0  16 -42 -68  -7
+dequeued -77: ok
+:: -20   0  16 -42 -68  -7
+enqueued   3: ok
+:: -20   0  16 -42 -68  -7   3
+dequeued -20: ok
+::   0  16 -42 -68  -7   3
+dequeued   0: ok
+::  16 -42 -68  -7   3
+dequeued  16: ok
+:: -42 -68  -7   3
+dequeued -42: ok
+:: -68  -7   3
